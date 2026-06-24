@@ -177,7 +177,10 @@
       display: flex; align-items: center; justify-content: center;
       font-family: 'Space Grotesk', sans-serif; font-size: 1.6rem; font-weight: 700;
       color: #050510; margin: 0 auto 1.25rem;
+      overflow: hidden;
     }
+    .team-avatar img { width: 100%; height: 100%; object-fit: cover; }
+    .team-bio { font-size: 0.78rem; color: var(--muted); line-height: 1.75; margin-top: 0.75rem; text-align: left; }
     .team-name { font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem; font-weight: 600; margin-bottom: 0.3rem; }
     .team-ngo { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.4rem; }
     .team-npo { font-size: 0.8rem; color: var(--muted); }
@@ -391,10 +394,11 @@
     </div>
     <div class="team-grid">
       <div class="team-card reveal" style="transition-delay:0.05s">
-        <div class="team-avatar">U</div>
-        <div class="team-name">Kento Ujiura</div>
+        <div class="team-avatar"><img src="kento-ujiura.jpg" alt="Kento UJIURA"></div>
+        <div class="team-name">Kento UJIURA</div>
         <div class="team-ngo">CEO</div>
         <div class="team-npo">代表理事 · 理事長</div>
+        <p class="team-bio">2005年生まれ。18歳で同志社大学法学部法律学科入学。Harvard Summer School at Kyoto修了。在日米陸軍・ハーグ国際私法会議インターン、スタンフォード大学（アメリカ合衆国）での学修などを経て、2026年国際NGO ARIAを設立、同CEOに就任。</p>
       </div>
       <div class="team-card reveal" style="transition-delay:0.1s">
         <div class="team-avatar">S</div>
